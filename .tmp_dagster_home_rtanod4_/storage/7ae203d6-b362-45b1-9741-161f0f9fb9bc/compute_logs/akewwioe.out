@@ -1,0 +1,11 @@
+
+🔍 FEATURE QUALITY CHECK:
+==================================================
+✅ AAPL: 482 rows, 0 critical missing, 30 total missing (0.3%), 0 infinite
+✅ TSLA: 482 rows, 0 critical missing, 30 total missing (0.3%), 0 infinite
+✅ NVDA: 482 rows, 0 critical missing, 30 total missing (0.3%), 0 infinite
+✅ GOOGL: 482 rows, 0 critical missing, 30 total missing (0.3%), 0 infinite
+✅ MSFT: 482 rows, 0 critical missing, 30 total missing (0.3%), 0 infinite
+✅ AMZN: 482 rows, 0 critical missing, 30 total missing (0.3%), 0 infinite
+✅ META: 482 rows, 0 critical missing, 30 total missing (0.3%), 0 infinite
+==================================================

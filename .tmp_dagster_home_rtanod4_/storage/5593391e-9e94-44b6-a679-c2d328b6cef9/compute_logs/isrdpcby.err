@@ -1,0 +1,24 @@
+[32m2025-08-01 19:32:31 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36326 - LOGS_CAPTURED - Started capturing logs in process (pid: 36326).
+[32m2025-08-01 19:32:31 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36326 - feature_engineered_data - STEP_START - Started execution of step "feature_engineered_data".
+[32m2025-08-01 19:32:31 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - feature_engineered_data - Loading file from: /Users/saksh/Documents/my_mlops_project/my_dagster_project/.tmp_dagster_home_rtanod4_/storage/raw_stock_data using PickledObjectFilesystemIOManager...
+[32m2025-08-01 19:32:31 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36326 - feature_engineered_data - LOADED_INPUT - Loaded input "raw_stock_data" using input manager "io_manager", from output "result" of step "raw_stock_data"
+[32m2025-08-01 19:32:31 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36326 - feature_engineered_data - STEP_INPUT - Got input "raw_stock_data" of type "Any". (Type check passed).
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+[32m2025-08-01 19:32:31 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36326 - feature_engineered_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2025-08-01 19:32:31 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - feature_engineered_data - Writing file at: /Users/saksh/Documents/my_mlops_project/my_dagster_project/.tmp_dagster_home_rtanod4_/storage/feature_engineered_data using PickledObjectFilesystemIOManager...
+[32m2025-08-01 19:32:31 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36326 - feature_engineered_data - ASSET_MATERIALIZATION - Materialized value feature_engineered_data.
+[32m2025-08-01 19:32:31 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36326 - feature_engineered_data - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2025-08-01 19:32:31 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36326 - feature_engineered_data - STEP_SUCCESS - Finished execution of step "feature_engineered_data" in 86ms.

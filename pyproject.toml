@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.dagster]
+# This tells Dagster to look for a file called definitions.py inside a folder named stock_pipeline
+module_name = "stock_pipeline"
+
+# This is the display name for our project in the UI
+code_location_name = "stock_pipeline"

@@ -1,0 +1,41 @@
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - 36260 - LOGS_CAPTURED - Started capturing logs in process (pid: 36260).
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - 36260 - multi_ticker_predictions - STEP_START - Started execution of step "multi_ticker_predictions".
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - multi_ticker_predictions - Loading file from: /Users/saksh/Documents/my_mlops_project/my_dagster_project/.tmp_dagster_home_rtanod4_/storage/model_evaluation using PickledObjectFilesystemIOManager...
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - 36260 - multi_ticker_predictions - LOADED_INPUT - Loaded input "model_evaluation" using input manager "io_manager", from output "result" of step "model_evaluation"
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - multi_ticker_predictions - Loading file from: /Users/saksh/Documents/my_mlops_project/my_dagster_project/.tmp_dagster_home_rtanod4_/storage/raw_stock_data using PickledObjectFilesystemIOManager...
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - 36260 - multi_ticker_predictions - LOADED_INPUT - Loaded input "raw_stock_data" using input manager "io_manager", from output "result" of step "raw_stock_data"
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - 36260 - multi_ticker_predictions - STEP_INPUT - Got input "model_evaluation" of type "Dict[String,dict]". (Type check passed).
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - 36260 - multi_ticker_predictions - STEP_INPUT - Got input "raw_stock_data" of type "Dict[String,DataFrame]". (Type check passed).
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/venv/lib/python3.12/site-packages/sklearn/utils/validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/venv/lib/python3.12/site-packages/sklearn/utils/validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/venv/lib/python3.12/site-packages/sklearn/utils/validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/venv/lib/python3.12/site-packages/sklearn/utils/validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/venv/lib/python3.12/site-packages/sklearn/utils/validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/venv/lib/python3.12/site-packages/sklearn/utils/validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:123: FutureWarning: Series.fillna with 'method' is deprecated and will raise in a future version. Use obj.ffill() or obj.bfill() instead.
+  df[col] = df[col].fillna(method='ffill')
+/Users/saksh/Documents/my_mlops_project/venv/lib/python3.12/site-packages/sklearn/utils/validation.py:2749: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - 36260 - multi_ticker_predictions - STEP_OUTPUT - Yielded output "result" of type "dict". (Type check passed).
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - multi_ticker_predictions - Writing file at: /Users/saksh/Documents/my_mlops_project/my_dagster_project/.tmp_dagster_home_rtanod4_/storage/multi_ticker_predictions using PickledObjectFilesystemIOManager...
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - 36260 - multi_ticker_predictions - ASSET_MATERIALIZATION - Materialized value multi_ticker_predictions.
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - 36260 - multi_ticker_predictions - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2025-08-01 19:27:47 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 93ed7386-d176-48c3-86c6-ce0430bc553d - 36260 - multi_ticker_predictions - STEP_SUCCESS - Finished execution of step "multi_ticker_predictions" in 87ms.

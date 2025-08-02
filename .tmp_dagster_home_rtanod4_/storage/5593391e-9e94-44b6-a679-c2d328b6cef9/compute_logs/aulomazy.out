@@ -1,0 +1,81 @@
+🚀 Starting download for 7 tickers...
+📊 Downloading AAPL data from 2023-08-02 to 2025-08-01
+🔍 [AAPL] Raw download shape: (501, 5)
+🔍 [AAPL] Raw columns: [('Close', 'AAPL'), ('High', 'AAPL'), ('Low', 'AAPL'), ('Open', 'AAPL'), ('Volume', 'AAPL')]
+🔍 [AAPL] Raw latest close: $208.49000549316406
+🔍 [AAPL] After standardization: ['close', 'high', 'low', 'open', 'volume']
+✅ AAPL: Downloaded 501 days
+🔍 [AAPL] Final close price: $207.57
+🔍 [AAPL] Close price range: $164.01 - $258.40
+✅ AAPL: Added to dataset
+--------------------------------------------------
+📊 Downloading TSLA data from 2023-08-02 to 2025-08-01
+🔍 [TSLA] Raw download shape: (501, 5)
+🔍 [TSLA] Raw columns: [('Close', 'TSLA'), ('High', 'TSLA'), ('Low', 'TSLA'), ('Open', 'TSLA'), ('Volume', 'TSLA')]
+🔍 [TSLA] Raw latest close: $319.6099853515625
+🔍 [TSLA] After standardization: ['close', 'high', 'low', 'open', 'volume']
+✅ TSLA: Downloaded 501 days
+🔍 [TSLA] Final close price: $308.27
+🔍 [TSLA] Close price range: $142.05 - $479.86
+✅ TSLA: Added to dataset
+--------------------------------------------------
+📊 Downloading NVDA data from 2023-08-02 to 2025-08-01
+🔍 [NVDA] Raw download shape: (501, 5)
+🔍 [NVDA] Raw columns: [('Close', 'NVDA'), ('High', 'NVDA'), ('Low', 'NVDA'), ('Open', 'NVDA'), ('Volume', 'NVDA')]
+🔍 [NVDA] Raw latest close: $182.89999389648438
+🔍 [NVDA] After standardization: ['close', 'high', 'low', 'open', 'volume']
+✅ NVDA: Downloaded 501 days
+🔍 [NVDA] Final close price: $177.87
+🔍 [NVDA] Close price range: $40.30 - $179.27
+✅ NVDA: Added to dataset
+--------------------------------------------------
+📊 Downloading GOOGL data from 2023-08-02 to 2025-08-01
+🔍 [GOOGL] Raw download shape: (501, 5)
+🔍 [GOOGL] Raw columns: [('Close', 'GOOGL'), ('High', 'GOOGL'), ('Low', 'GOOGL'), ('Open', 'GOOGL'), ('Volume', 'GOOGL')]
+🔍 [GOOGL] Raw latest close: $195.7100067138672
+🔍 [GOOGL] After standardization: ['close', 'high', 'low', 'open', 'volume']
+✅ GOOGL: Downloaded 501 days
+🔍 [GOOGL] Final close price: $191.90
+🔍 [GOOGL] Close price range: $121.44 - $205.89
+✅ GOOGL: Added to dataset
+--------------------------------------------------
+📊 Downloading MSFT data from 2023-08-02 to 2025-08-01
+🔍 [MSFT] Raw download shape: (501, 5)
+🔍 [MSFT] Raw columns: [('Close', 'MSFT'), ('High', 'MSFT'), ('Low', 'MSFT'), ('Open', 'MSFT'), ('Volume', 'MSFT')]
+🔍 [MSFT] Raw latest close: $555.22998046875
+🔍 [MSFT] After standardization: ['close', 'high', 'low', 'open', 'volume']
+✅ MSFT: Downloaded 501 days
+🔍 [MSFT] Final close price: $533.50
+🔍 [MSFT] Close price range: $308.01 - $533.50
+✅ MSFT: Added to dataset
+--------------------------------------------------
+📊 Downloading AMZN data from 2023-08-02 to 2025-08-01
+🔍 [AMZN] Raw download shape: (501, 5)
+🔍 [AMZN] Raw columns: [('Close', 'AMZN'), ('High', 'AMZN'), ('Low', 'AMZN'), ('Open', 'AMZN'), ('Volume', 'AMZN')]
+🔍 [AMZN] Raw latest close: $235.77000427246094
+🔍 [AMZN] After standardization: ['close', 'high', 'low', 'open', 'volume']
+✅ AMZN: Downloaded 501 days
+🔍 [AMZN] Final close price: $234.11
+🔍 [AMZN] Close price range: $119.57 - $242.06
+✅ AMZN: Added to dataset
+--------------------------------------------------
+📊 Downloading META data from 2023-08-02 to 2025-08-01
+🔍 [META] Raw download shape: (501, 5)
+🔍 [META] Raw columns: [('Close', 'META'), ('High', 'META'), ('Low', 'META'), ('Open', 'META'), ('Volume', 'META')]
+🔍 [META] Raw latest close: $775.2000122070312
+🔍 [META] After standardization: ['close', 'high', 'low', 'open', 'volume']
+✅ META: Downloaded 501 days
+🔍 [META] Final close price: $773.44
+🔍 [META] Close price range: $281.70 - $773.44
+✅ META: Added to dataset
+--------------------------------------------------
+✅ Successfully downloaded data for 7 out of 7 tickers
+
+📊 DOWNLOAD SUMMARY:
+   AAPL: 501 rows, latest close: $207.57
+   TSLA: 501 rows, latest close: $308.27
+   NVDA: 501 rows, latest close: $177.87
+   GOOGL: 501 rows, latest close: $191.90
+   MSFT: 501 rows, latest close: $533.50
+   AMZN: 501 rows, latest close: $234.11
+   META: 501 rows, latest close: $773.44

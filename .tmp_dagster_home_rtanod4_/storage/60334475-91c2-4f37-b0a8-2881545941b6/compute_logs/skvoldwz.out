@@ -1,0 +1,146 @@
+
+🔧 Starting feature engineering for 7 tickers...
+
+🔧 FEATURE ENGINEERING FOR AAPL
+============================================================
+🔍 [AAPL] Input data shape: (501, 5)
+🔍 [AAPL] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [AAPL] Close price range: $164.01 - $258.40
+🔍 [AAPL] Latest close: $207.57
+📊 [AAPL] Calculating technical indicators...
+🔍 [AAPL] FINAL FEATURES:
+   Close: $207.57
+   SMA_5: $211.16
+   SMA_20: $211.40
+   RSI: 38.79
+   Volume Ratio: 1.69
+   MACD: 1.4462
+✅ [AAPL] Technical indicators complete. Final shape: (482, 20)
+✅ AAPL: Feature engineering complete - 482 rows
+============================================================
+✅ AAPL: Processed successfully
+
+🔧 FEATURE ENGINEERING FOR TSLA
+============================================================
+🔍 [TSLA] Input data shape: (501, 5)
+🔍 [TSLA] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [TSLA] Close price range: $142.05 - $479.86
+🔍 [TSLA] Latest close: $308.27
+📊 [TSLA] Calculating technical indicators...
+🔍 [TSLA] FINAL FEATURES:
+   Close: $308.27
+   SMA_5: $318.03
+   SMA_20: $315.67
+   RSI: 47.46
+   Volume Ratio: 0.90
+   MACD: -0.1483
+✅ [TSLA] Technical indicators complete. Final shape: (482, 20)
+✅ TSLA: Feature engineering complete - 482 rows
+============================================================
+✅ TSLA: Processed successfully
+
+🔧 FEATURE ENGINEERING FOR NVDA
+============================================================
+🔍 [NVDA] Input data shape: (501, 5)
+🔍 [NVDA] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [NVDA] Close price range: $40.30 - $179.27
+🔍 [NVDA] Latest close: $177.87
+📊 [NVDA] Calculating technical indicators...
+🔍 [NVDA] FINAL FEATURES:
+   Close: $177.87
+   SMA_5: $176.58
+   SMA_20: $169.34
+   RSI: 70.02
+   Volume Ratio: 1.37
+   MACD: 7.0922
+✅ [NVDA] Technical indicators complete. Final shape: (482, 20)
+✅ NVDA: Feature engineering complete - 482 rows
+============================================================
+✅ NVDA: Processed successfully
+
+🔧 FEATURE ENGINEERING FOR GOOGL
+============================================================
+🔍 [GOOGL] Input data shape: (501, 5)
+🔍 [GOOGL] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [GOOGL] Close price range: $121.44 - $205.89
+🔍 [GOOGL] Latest close: $191.90
+📊 [GOOGL] Calculating technical indicators...
+🔍 [GOOGL] FINAL FEATURES:
+   Close: $191.90
+   SMA_5: $193.99
+   SMA_20: $185.70
+   RSI: 74.01
+   Volume Ratio: 1.29
+   MACD: 5.4053
+✅ [GOOGL] Technical indicators complete. Final shape: (482, 20)
+✅ GOOGL: Feature engineering complete - 482 rows
+============================================================
+✅ GOOGL: Processed successfully
+
+🔧 FEATURE ENGINEERING FOR MSFT
+============================================================
+🔍 [MSFT] Input data shape: (501, 5)
+🔍 [MSFT] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [MSFT] Close price range: $308.01 - $533.50
+🔍 [MSFT] Latest close: $533.50
+📊 [MSFT] Calculating technical indicators...
+🔍 [MSFT] FINAL FEATURES:
+   Close: $533.50
+   SMA_5: $517.10
+   SMA_20: $507.77
+   RSI: 82.47
+   Volume Ratio: 2.86
+   MACD: 9.5730
+✅ [MSFT] Technical indicators complete. Final shape: (482, 20)
+✅ MSFT: Feature engineering complete - 482 rows
+============================================================
+✅ MSFT: Processed successfully
+
+🔧 FEATURE ENGINEERING FOR AMZN
+============================================================
+🔍 [AMZN] Input data shape: (501, 5)
+🔍 [AMZN] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [AMZN] Close price range: $119.57 - $242.06
+🔍 [AMZN] Latest close: $234.11
+📊 [AMZN] Calculating technical indicators...
+🔍 [AMZN] FINAL FEATURES:
+   Close: $234.11
+   SMA_5: $231.91
+   SMA_20: $226.91
+   RSI: 67.58
+   Volume Ratio: 2.61
+   MACD: 4.4982
+✅ [AMZN] Technical indicators complete. Final shape: (482, 20)
+✅ AMZN: Feature engineering complete - 482 rows
+============================================================
+✅ AMZN: Processed successfully
+
+🔧 FEATURE ENGINEERING FOR META
+============================================================
+🔍 [META] Input data shape: (501, 5)
+🔍 [META] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [META] Close price range: $281.70 - $773.44
+🔍 [META] Latest close: $773.44
+📊 [META] Calculating technical indicators...
+🔍 [META] FINAL FEATURES:
+   Close: $773.44
+   SMA_5: $719.79
+   SMA_20: $716.03
+   RSI: 67.44
+   Volume Ratio: 3.10
+   MACD: 7.5758
+✅ [META] Technical indicators complete. Final shape: (482, 20)
+✅ META: Feature engineering complete - 482 rows
+============================================================
+✅ META: Processed successfully
+
+✅ Feature engineering complete for 7 tickers
+
+📊 FEATURE ENGINEERING SUMMARY:
+   AAPL: Close=$207.57, SMA20=$211.40, RSI=38.8
+   TSLA: Close=$308.27, SMA20=$315.67, RSI=47.5
+   NVDA: Close=$177.87, SMA20=$169.34, RSI=70.0
+   GOOGL: Close=$191.90, SMA20=$185.70, RSI=74.0
+   MSFT: Close=$533.50, SMA20=$507.77, RSI=82.5
+   AMZN: Close=$234.11, SMA20=$226.91, RSI=67.6
+   META: Close=$773.44, SMA20=$716.03, RSI=67.4

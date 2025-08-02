@@ -1,0 +1,357 @@
+
+🚀 STARTING MULTI-TICKER PREDICTION GENERATION
+================================================================================
+
+Processing AAPL...
+
+🎯 GENERATING PREDICTION FOR AAPL
+======================================================================
+🔍 [AAPL] Model info:
+   Required features: ['sma_5', 'sma_20', 'rsi', 'macd', 'macd_signal', 'bb_upper', 'bb_lower', 'volume_sma_20']
+   Scaler type: StandardScaler
+   Model type: LinearRegression
+🔍 [AAPL] Input data:
+   Shape: (501, 5)
+   Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+   Columns: ['close', 'high', 'low', 'open', 'volume']
+🔍 [AAPL] Input data shape: (501, 5)
+🔍 [AAPL] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [AAPL] Close price range: $164.01 - $258.40
+🔍 [AAPL] Latest close: $207.57
+📊 [AAPL] Calculating technical indicators...
+🔍 [AAPL] FINAL FEATURES:
+   Close: $207.57
+   SMA_5: $211.16
+   SMA_20: $211.40
+   RSI: 38.79
+   Volume Ratio: 1.69
+   MACD: 1.4462
+✅ [AAPL] Technical indicators complete. Final shape: (482, 20)
+🔍 [AAPL] Prediction input:
+   Current price: $207.57
+   Date: 2025-07-31
+   Feature values:
+      sma_5: 211.164005
+      sma_20: 211.396000
+      rsi: 38.788276
+      macd: 1.446170
+      macd_signal: 2.139339
+      bb_upper: 215.574758
+      bb_lower: 207.217242
+      volume_sma_20: 46562545.000000
+🔍 [AAPL] Feature array shape: (1, 8)
+🔍 [AAPL] Feature array values: [2.11164005e+02 2.11396000e+02 3.87882756e+01 1.44617027e+00
+ 2.13933921e+00 2.15574758e+02 2.07217242e+02 4.65625450e+07]
+🔍 [AAPL] Scaled features: [ 0.18111818  0.23563331 -0.78539732  0.10494478  0.34835254 -0.02044266
+  0.52159608 -0.92895662]
+🔍 [AAPL] Raw prediction: 207.94697537973107
+🎯 [AAPL] FINAL RESULT:
+   Prediction: $207.95 (+0.18%)
+   Signal: HOLD (WEAK)
+   Confidence: 61.1%
+======================================================================
+✅ AAPL: Success - HOLD (+0.18%)
+
+Processing TSLA...
+
+🎯 GENERATING PREDICTION FOR TSLA
+======================================================================
+🔍 [TSLA] Model info:
+   Required features: ['sma_5', 'sma_20', 'rsi', 'macd', 'macd_signal', 'bb_upper', 'bb_lower', 'volume_sma_20']
+   Scaler type: StandardScaler
+   Model type: LinearRegression
+🔍 [TSLA] Input data:
+   Shape: (501, 5)
+   Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+   Columns: ['close', 'high', 'low', 'open', 'volume']
+🔍 [TSLA] Input data shape: (501, 5)
+🔍 [TSLA] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [TSLA] Close price range: $142.05 - $479.86
+🔍 [TSLA] Latest close: $308.27
+📊 [TSLA] Calculating technical indicators...
+🔍 [TSLA] FINAL FEATURES:
+   Close: $308.27
+   SMA_5: $318.03
+   SMA_20: $315.67
+   RSI: 47.46
+   Volume Ratio: 0.90
+   MACD: -0.1483
+✅ [TSLA] Technical indicators complete. Final shape: (482, 20)
+🔍 [TSLA] Prediction input:
+   Current price: $308.27
+   Date: 2025-07-31
+   Feature values:
+      sma_5: 318.032001
+      sma_20: 315.669499
+      rsi: 47.456301
+      macd: -0.148264
+      macd_signal: 0.383981
+      bb_upper: 338.678735
+      bb_lower: 292.660263
+      volume_sma_20: 94641965.000000
+🔍 [TSLA] Feature array shape: (1, 8)
+🔍 [TSLA] Feature array values: [ 3.18032001e+02  3.15669499e+02  4.74563014e+01 -1.48263541e-01
+  3.83981135e-01  3.38678735e+02  2.92660263e+02  9.46419650e+07]
+🔍 [TSLA] Scaled features: [ 0.93545345  0.93096967 -0.09624872 -0.09420202 -0.08933407  0.64692999
+  1.2707131  -0.18805777]
+🔍 [TSLA] Raw prediction: 306.18754426818083
+🎯 [TSLA] FINAL RESULT:
+   Prediction: $306.19 (-0.68%)
+   Signal: HOLD (WEAK)
+   Confidence: 82.6%
+======================================================================
+✅ TSLA: Success - HOLD (-0.68%)
+
+Processing NVDA...
+
+🎯 GENERATING PREDICTION FOR NVDA
+======================================================================
+🔍 [NVDA] Model info:
+   Required features: ['sma_5', 'sma_20', 'rsi', 'macd', 'macd_signal', 'bb_upper', 'bb_lower', 'volume_sma_20']
+   Scaler type: StandardScaler
+   Model type: LinearRegression
+🔍 [NVDA] Input data:
+   Shape: (501, 5)
+   Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+   Columns: ['close', 'high', 'low', 'open', 'volume']
+🔍 [NVDA] Input data shape: (501, 5)
+🔍 [NVDA] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [NVDA] Close price range: $40.30 - $179.27
+🔍 [NVDA] Latest close: $177.87
+📊 [NVDA] Calculating technical indicators...
+🔍 [NVDA] FINAL FEATURES:
+   Close: $177.87
+   SMA_5: $176.58
+   SMA_20: $169.34
+   RSI: 70.02
+   Volume Ratio: 1.37
+   MACD: 7.0922
+✅ [NVDA] Technical indicators complete. Final shape: (482, 20)
+🔍 [NVDA] Prediction input:
+   Current price: $177.87
+   Date: 2025-07-31
+   Feature values:
+      sma_5: 176.579999
+      sma_20: 169.343001
+      rsi: 70.015438
+      macd: 7.092167
+      macd_signal: 7.171230
+      bb_upper: 182.061114
+      bb_lower: 156.624888
+      volume_sma_20: 160563005.000000
+🔍 [NVDA] Feature array shape: (1, 8)
+🔍 [NVDA] Feature array values: [1.76579999e+02 1.69343001e+02 7.00154380e+01 7.09216680e+00
+ 7.17122982e+00 1.82061114e+02 1.56624888e+02 1.60563005e+08]
+🔍 [NVDA] Scaled features: [ 2.24881669  2.04768836  0.76521783  1.76248882  1.95611733  1.90537184
+  2.17916433 -1.93203802]
+🔍 [NVDA] Raw prediction: 176.61335970126436
+🎯 [NVDA] FINAL RESULT:
+   Prediction: $176.61 (-0.71%)
+   Signal: HOLD (WEAK)
+   Confidence: 96.9%
+======================================================================
+✅ NVDA: Success - HOLD (-0.71%)
+
+Processing GOOGL...
+
+🎯 GENERATING PREDICTION FOR GOOGL
+======================================================================
+🔍 [GOOGL] Model info:
+   Required features: ['sma_5', 'sma_20', 'rsi', 'macd', 'macd_signal', 'bb_upper', 'bb_lower', 'volume_sma_20']
+   Scaler type: StandardScaler
+   Model type: LinearRegression
+🔍 [GOOGL] Input data:
+   Shape: (501, 5)
+   Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+   Columns: ['close', 'high', 'low', 'open', 'volume']
+🔍 [GOOGL] Input data shape: (501, 5)
+🔍 [GOOGL] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [GOOGL] Close price range: $121.44 - $205.89
+🔍 [GOOGL] Latest close: $191.90
+📊 [GOOGL] Calculating technical indicators...
+🔍 [GOOGL] FINAL FEATURES:
+   Close: $191.90
+   SMA_5: $193.99
+   SMA_20: $185.70
+   RSI: 74.01
+   Volume Ratio: 1.29
+   MACD: 5.4053
+✅ [GOOGL] Technical indicators complete. Final shape: (482, 20)
+🔍 [GOOGL] Prediction input:
+   Current price: $191.90
+   Date: 2025-07-31
+   Feature values:
+      sma_5: 193.987997
+      sma_20: 185.702998
+      rsi: 74.005738
+      macd: 5.405305
+      macd_signal: 4.892830
+      bb_upper: 199.777234
+      bb_lower: 171.628763
+      volume_sma_20: 39754050.000000
+🔍 [GOOGL] Feature array shape: (1, 8)
+🔍 [GOOGL] Feature array values: [1.93987997e+02 1.85702998e+02 7.40057382e+01 5.40530496e+00
+ 4.89283034e+00 1.99777234e+02 1.71628763e+02 3.97540500e+07]
+🔍 [GOOGL] Scaled features: [1.66556757 1.28695625 1.19327139 1.56989724 1.51443716 1.40382201
+ 1.10316302 2.9682474 ]
+🔍 [GOOGL] Raw prediction: 195.19095768309126
+🎯 [GOOGL] FINAL RESULT:
+   Prediction: $195.19 (+1.71%)
+   Signal: HOLD (WEAK)
+   Confidence: 87.9%
+======================================================================
+✅ GOOGL: Success - HOLD (+1.71%)
+
+Processing MSFT...
+
+🎯 GENERATING PREDICTION FOR MSFT
+======================================================================
+🔍 [MSFT] Model info:
+   Required features: ['sma_5', 'sma_20', 'rsi', 'macd', 'macd_signal', 'bb_upper', 'bb_lower', 'volume_sma_20']
+   Scaler type: StandardScaler
+   Model type: LinearRegression
+🔍 [MSFT] Input data:
+   Shape: (501, 5)
+   Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+   Columns: ['close', 'high', 'low', 'open', 'volume']
+🔍 [MSFT] Input data shape: (501, 5)
+🔍 [MSFT] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [MSFT] Close price range: $308.01 - $533.50
+🔍 [MSFT] Latest close: $533.50
+📊 [MSFT] Calculating technical indicators...
+🔍 [MSFT] FINAL FEATURES:
+   Close: $533.50
+   SMA_5: $517.10
+   SMA_20: $507.77
+   RSI: 82.47
+   Volume Ratio: 2.86
+   MACD: 9.5730
+✅ [MSFT] Technical indicators complete. Final shape: (482, 20)
+🔍 [MSFT] Prediction input:
+   Current price: $533.50
+   Date: 2025-07-31
+   Feature values:
+      sma_5: 517.104004
+      sma_20: 507.765001
+      rsi: 82.465454
+      macd: 9.572978
+      macd_signal: 9.206604
+      bb_upper: 523.867575
+      bb_lower: 491.662427
+      volume_sma_20: 18024980.000000
+🔍 [MSFT] Feature array shape: (1, 8)
+🔍 [MSFT] Feature array values: [5.17104004e+02 5.07765001e+02 8.24654545e+01 9.57297778e+00
+ 9.20660351e+00 5.23867575e+02 4.91662427e+02 1.80249800e+07]
+🔍 [MSFT] Scaled features: [ 3.86724651  3.39821371  1.69688851  1.56143135  1.63043253  3.12088849
+  3.53773191 -1.20792968]
+🔍 [MSFT] Raw prediction: 521.7012835235066
+🎯 [MSFT] FINAL RESULT:
+   Prediction: $521.70 (-2.21%)
+   Signal: SELL (MODERATE)
+   Confidence: 96.3%
+======================================================================
+✅ MSFT: Success - SELL (-2.21%)
+
+Processing AMZN...
+
+🎯 GENERATING PREDICTION FOR AMZN
+======================================================================
+🔍 [AMZN] Model info:
+   Required features: ['sma_5', 'sma_20', 'rsi', 'macd', 'macd_signal', 'bb_upper', 'bb_lower', 'volume_sma_20']
+   Scaler type: StandardScaler
+   Model type: LinearRegression
+🔍 [AMZN] Input data:
+   Shape: (501, 5)
+   Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+   Columns: ['close', 'high', 'low', 'open', 'volume']
+🔍 [AMZN] Input data shape: (501, 5)
+🔍 [AMZN] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [AMZN] Close price range: $119.57 - $242.06
+🔍 [AMZN] Latest close: $234.11
+📊 [AMZN] Calculating technical indicators...
+🔍 [AMZN] FINAL FEATURES:
+   Close: $234.11
+   SMA_5: $231.91
+   SMA_20: $226.91
+   RSI: 67.58
+   Volume Ratio: 2.61
+   MACD: 4.4982
+✅ [AMZN] Technical indicators complete. Final shape: (482, 20)
+🔍 [AMZN] Prediction input:
+   Current price: $234.11
+   Date: 2025-07-31
+   Feature values:
+      sma_5: 231.907999
+      sma_20: 226.906500
+      rsi: 67.582215
+      macd: 4.498186
+      macd_signal: 4.444569
+      bb_upper: 235.134093
+      bb_lower: 218.678907
+      volume_sma_20: 39185635.000000
+🔍 [AMZN] Feature array shape: (1, 8)
+🔍 [AMZN] Feature array values: [2.31907999e+02 2.26906500e+02 6.75822146e+01 4.49818637e+00
+ 4.44456908e+00 2.35134093e+02 2.18678907e+02 3.91856350e+07]
+🔍 [AMZN] Scaled features: [ 1.82700178  1.66702183  0.83100683  0.94273837  1.02878171  1.4423799
+  1.87853071 -0.46108544]
+🔍 [AMZN] Raw prediction: 233.2737418053015
+🎯 [AMZN] FINAL RESULT:
+   Prediction: $233.27 (-0.36%)
+   Signal: HOLD (WEAK)
+   Confidence: 91.1%
+======================================================================
+✅ AMZN: Success - HOLD (-0.36%)
+
+Processing META...
+
+🎯 GENERATING PREDICTION FOR META
+======================================================================
+🔍 [META] Model info:
+   Required features: ['sma_5', 'sma_20', 'rsi', 'macd', 'macd_signal', 'bb_upper', 'bb_lower', 'volume_sma_20']
+   Scaler type: StandardScaler
+   Model type: LinearRegression
+🔍 [META] Input data:
+   Shape: (501, 5)
+   Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+   Columns: ['close', 'high', 'low', 'open', 'volume']
+🔍 [META] Input data shape: (501, 5)
+🔍 [META] Date range: 2023-08-02 00:00:00 to 2025-07-31 00:00:00
+🔍 [META] Close price range: $281.70 - $773.44
+🔍 [META] Latest close: $773.44
+📊 [META] Calculating technical indicators...
+🔍 [META] FINAL FEATURES:
+   Close: $773.44
+   SMA_5: $719.79
+   SMA_20: $716.03
+   RSI: 67.44
+   Volume Ratio: 3.10
+   MACD: 7.5758
+✅ [META] Technical indicators complete. Final shape: (482, 20)
+🔍 [META] Prediction input:
+   Current price: $773.44
+   Date: 2025-07-31
+   Feature values:
+      sma_5: 719.792004
+      sma_20: 716.029498
+      rsi: 67.439982
+      macd: 7.575843
+      macd_signal: 6.517435
+      bb_upper: 749.010400
+      bb_lower: 683.048597
+      volume_sma_20: 12516765.000000
+🔍 [META] Feature array shape: (1, 8)
+🔍 [META] Feature array values: [7.19792004e+02 7.16029498e+02 6.74399821e+01 7.57584292e+00
+ 6.51743476e+00 7.49010400e+02 6.83048597e+02 1.25167650e+07]
+🔍 [META] Scaled features: [ 2.09566087  2.10973096  0.53156025  0.0777712  -0.05844528  1.93224662
+  2.25725977 -0.81486519]
+🔍 [META] Raw prediction: 740.3630598472917
+🎯 [META] FINAL RESULT:
+   Prediction: $740.36 (-4.28%)
+   Signal: SELL (STRONG)
+   Confidence: 92.5%
+======================================================================
+✅ META: Success - SELL (-4.28%)
+
+🎯 PREDICTION GENERATION COMPLETE
+================================================================================
+📊 Results: 7/7 successful predictions

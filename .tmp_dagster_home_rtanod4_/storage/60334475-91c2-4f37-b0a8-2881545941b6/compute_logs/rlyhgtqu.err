@@ -1,0 +1,7 @@
+[32m2025-08-01 19:32:28 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 60334475-91c2-4f37-b0a8-2881545941b6 - 36296 - LOGS_CAPTURED - Started capturing logs in process (pid: 36296).
+[32m2025-08-01 19:32:28 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 60334475-91c2-4f37-b0a8-2881545941b6 - 36296 - market_status - STEP_START - Started execution of step "market_status".
+[32m2025-08-01 19:32:28 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 60334475-91c2-4f37-b0a8-2881545941b6 - 36296 - market_status - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2025-08-01 19:32:28 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 60334475-91c2-4f37-b0a8-2881545941b6 - market_status - Writing file at: /Users/saksh/Documents/my_mlops_project/my_dagster_project/.tmp_dagster_home_rtanod4_/storage/market_status using PickledObjectFilesystemIOManager...
+[32m2025-08-01 19:32:28 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 60334475-91c2-4f37-b0a8-2881545941b6 - 36296 - market_status - ASSET_MATERIALIZATION - Materialized value market_status.
+[32m2025-08-01 19:32:28 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 60334475-91c2-4f37-b0a8-2881545941b6 - 36296 - market_status - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2025-08-01 19:32:28 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 60334475-91c2-4f37-b0a8-2881545941b6 - 36296 - market_status - STEP_SUCCESS - Finished execution of step "market_status" in 47ms.

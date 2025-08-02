@@ -1,0 +1,21 @@
+[32m2025-08-01 19:32:28 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36301 - LOGS_CAPTURED - Started capturing logs in process (pid: 36301).
+[32m2025-08-01 19:32:28 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36301 - raw_stock_data - STEP_START - Started execution of step "raw_stock_data".
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:156: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(ticker, start=start_date, end=end_date, progress=False)
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:156: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(ticker, start=start_date, end=end_date, progress=False)
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:156: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(ticker, start=start_date, end=end_date, progress=False)
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:156: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(ticker, start=start_date, end=end_date, progress=False)
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:156: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(ticker, start=start_date, end=end_date, progress=False)
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:156: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(ticker, start=start_date, end=end_date, progress=False)
+/Users/saksh/Documents/my_mlops_project/my_dagster_project/stock_pipeline/__init__.py:156: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  data = yf.download(ticker, start=start_date, end=end_date, progress=False)
+[32m2025-08-01 19:32:30 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36301 - raw_stock_data - STEP_OUTPUT - Yielded output "result" of type "Any". (Type check passed).
+[32m2025-08-01 19:32:30 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - raw_stock_data - Writing file at: /Users/saksh/Documents/my_mlops_project/my_dagster_project/.tmp_dagster_home_rtanod4_/storage/raw_stock_data using PickledObjectFilesystemIOManager...
+[32m2025-08-01 19:32:30 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36301 - raw_stock_data - ASSET_MATERIALIZATION - Materialized value raw_stock_data.
+[32m2025-08-01 19:32:30 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36301 - raw_stock_data - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2025-08-01 19:32:30 -0400[0m - dagster - [34mDEBUG[0m - __ASSET_JOB - 5593391e-9e94-44b6-a679-c2d328b6cef9 - 36301 - raw_stock_data - STEP_SUCCESS - Finished execution of step "raw_stock_data" in 1.23s.
